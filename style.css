@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.style{
+ padding: 0;
+ margin: 0;
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box; 
+
+}
+.wrapper
+{
+    width: 1400px;
+    min-height: 100vh;
+    background-color: rgb(241, 248, 248);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url('back.jpg');
+     background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+}
+.modalfrom
+
+{
+    width: 500px;
+    min-height: 90vh;
+    background-color: rgb(98, 172, 120);
+   border-radius: 10px;
+    box-shadow: cornsilk;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+.actionBtns{
+    width: 80%;
+    background-color: tomato;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: chartreuse;
+
+}
+.actionBtn{
+    padding: 1em;
+    width: 50%;
+    outline:none;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    color: rgb(19, 9, 9);
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.moveBtn{
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  margin: 2px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: violet;
+  font-size: 0.8em;
+  font-weight: 600;
+  box-shadow: beige;
+  transform: translate(0%);
+    transition: all 0.2% ease-in-out;
+
+  
+}
+.rightBtn
+{
+    transform: translate(90%);
+    transition: all 0.2% ease-in-out;
+}
+.inputgroup
+{
+    width: 300px;
+    margin: 0.8em 0;
+    background-color: aliceblue;
+    border-radius: 50px;
+    box-shadow: brown;
+}
+
+.inputgroup input{
+    width: 100%;
+    padding: 1em 1.5em;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    
+}
+.inputgroup input:focus{
+    outline: none;
+}
+.submitBtn
+{
+    width: 150px;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 50px;
+    border: none;
+    background-color:beige;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3% ease-in-out;
+    
+     
+
+}
+.submitBtn:hover
+{
+    background-color: blue;
+    color:aliceblue;
+    transition: all 0.3% ease-in-out;
+
+}
+.from
+{
+  display: none;
+}
+.signupfrom
+{
+    display: block;
+}
+.loginfrom
+{
+    display: block;
+}
